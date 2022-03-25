@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import Store from './componets/Store/Store';
+import Header from './componets/Header/Header';
 
 function App() {
   return (
     <div>
-      <h1 className="header">My Favorite Camera</h1>
-      <h3 className='sub-header'>Pick up your favorite camera</h3>
+      <Header></Header>
       <Store></Store>
     </div>
   );

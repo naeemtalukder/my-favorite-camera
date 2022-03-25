@@ -1,0 +1,23 @@
+.header{
+    text-align: center;
+    color: #D68910 ;
+    font-family: 'Loto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 25px;
+  }
+  .sub-header{
+    text-align: center;
+    font-family: 'Loto';
+    font-size: 25px;
+    line-height: 25px;
+  }
+  @media only screen and (max-width: 600px){
+    .header{
+      font-size: 30px;
+    }
+    .sub-header{
+      font-size: 20px;
+    }
+  }
