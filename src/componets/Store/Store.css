@@ -6,4 +6,14 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 40px;
+    margin-left: 40px;
+}
+@media only screen and (max-width: 600px){
+    .store-container{
+        grid-template-columns: none;
+    }
+    .cameras-container{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 28px;
+    }
 }
