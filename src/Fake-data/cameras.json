@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Nikon D800",
+        "band": "Nikon",
+        "price": 490,
+        "img": "images/camera-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Nikon D450",
+        "band": "Nikon",
+        "price": 480,
+        "img": "images/camera-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Nikon FG",
+        "band": "Nikon",
+        "price": 460,
+        "img": "images/camera-3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Cannon EOS 6D",
+        "band": "Cannon",
+        "price": 450,
+        "img": "images/camera-4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Nikon D700",
+        "band": "Nikon",
+        "price": 440,
+        "img": "images/camera-5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Nikon D1700",
+        "band": "Nikon",
+        "price": 430,
+        "img": "images/camera-6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Sony Alpha X",
+        "band": "Sony",
+        "price": 420,
+        "img": "images/camera-7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Sony Alpha RX",
+        "band": "Sony",
+        "price": 410,
+        "img": "images/camera-8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Cannon EOS D850",
+        "band": "Cannon",
+        "price": 300,
+        "img": "images/camera-9.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Cannon EOS 80D",
+        "band": "Cannon",
+        "price": 340,
+        "img": "images/camera-10.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Cannon EOS R6",
+        "band": "Cannon",
+        "price": 350,
+        "img": "images/camera-11.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Nikon D64",
+        "band": "Nikon",
+        "price": 360,
+        "img": "images/camera-12.jpg"
+    }
+]

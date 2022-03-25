@@ -1,0 +1,31 @@
+.camera{
+    width: 300px;
+    height: 425px;
+    border: 1px solid #e7ebeb ;
+    border-radius: 8px;
+    background-color: #F8F8FF;
+}
+.camera img{
+    height: 220px;
+    width: 286px;
+    border-radius: 8px;
+    margin: 7px;
+}
+.camera-text{
+    margin: 15px;
+}
+.product-name{
+    font-family: 'Loto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+}
+.btn-cart{
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    background-color: #FFFACD;
+    cursor: pointer;
+}
