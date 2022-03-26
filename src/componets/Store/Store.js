@@ -14,7 +14,6 @@ const Store = () => {
     }, []);
 
     const handleAddToCart = (camera) => {
-        console.log(camera);
         const newCart = [...cart, camera];
         setCart(newCart);
     }
@@ -31,10 +30,12 @@ const Store = () => {
                 }
             </div>
             <div className="card-container">
-                <h1>This is carf</h1>
-                <p>{cart.length}</p>
+                {
+                    cart.map((item) => (<h3 key={item.id}>{item.name}</h3>))
+                }
+
             </div>
-        </div>
+        </div >
     );
 };
 

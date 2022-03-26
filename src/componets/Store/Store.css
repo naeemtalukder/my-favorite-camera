@@ -8,6 +8,10 @@
     gap: 40px;
     margin-left: 40px;
 }
+.card-container{
+    background-color:  #F8F8FF;
+    padding-left: 20px;
+}
 @media only screen and (max-width: 600px){
     .store-container{
         grid-template-columns: none;
