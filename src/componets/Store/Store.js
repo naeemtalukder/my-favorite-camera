@@ -6,27 +6,37 @@ import Camera from '../Cameras/Camera/Camera';
 const Store = () => {
     const [cameras, setCameras] = useState([]);
     const [cart, setCart] = useState([]);
-    const [choose, setChoose] = useState([]);
 
     useEffect(() => {
         fetch('cameras.json')
             .then(res => res.json())
             .then(data => setCameras(data))
     }, []);
-    if (cart.length < 4) {
-        var handleAddToCart = (camera) => {
-            const newCart = [...cart, camera];
-            setCart(newCart);
+    let newCart = []
+    const handleAddToCart = (camera) => {
+        const newIndex = cart.indexOf(camera)
+        if (newIndex > -1) {
+            alert('camera is already added')
+            return
         }
+        if (newIndex === -1) {
+            newCart = [...cart, camera]
+        }
+        setCart(newCart);
     }
+
 
     const againHandler = () => {
         setCart([]);
     }
 
     const chooseForMe = () => {
-        const getRandom = cart[(Math.random() * cart.length) | 0];
-        setChoose(getRandom);
+
+        const showCart = cart[Math.round(Math.random() * cart.length) || 0];
+        cart.splice(0, cart.length, showCart)
+        const newcart = [...cart]
+        setCart(newcart);
+        console.log(showCart);
     }
 
     return (
@@ -43,7 +53,8 @@ const Store = () => {
             <div className="card-container">
                 <h2>Selected Camera</h2>
                 {
-                    cart.map((item) => (<h3 key={item.id}>{item.name}</h3>))
+
+                    cart.map((item) => <h3 key={item.id}>{item.name}</h3>)
                 }
                 <div className='cart-btn'>
                     < button onClick={chooseForMe} className='btn-choose'> Choose 1 For Me</button>
