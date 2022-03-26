@@ -33,7 +33,7 @@ const Store = () => {
                 {
                     cart.map((item) => (<h3 key={item.id}>{item.name}</h3>))
                 }
-
+                < button > Choose For Me</button><button>Choses Again</button>
             </div>
         </div >
     );
