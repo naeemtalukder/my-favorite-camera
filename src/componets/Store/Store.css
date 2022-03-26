@@ -3,14 +3,41 @@
     grid-template-columns: 4fr 1fr;
 }
 .cameras-container{
+    width: 1000px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 40px;
-    margin-left: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
 }
 .card-container{
     background-color:  #F8F8FF;
-    padding-left: 20px;
+    position: fixed;
+    padding: 20px;
+    margin-left: 10px;
+    right: 0;
+}
+.cart-btn{
+    width: 230px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.btn-choose{
+    font-size: 21px;
+    line-height: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    background-color: #FACDFF;
+}
+.btn-again{
+    font-size: 21px;
+    line-height: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #FAF0E6;
 }
 @media only screen and (max-width: 600px){
     .store-container{
